@@ -13,7 +13,7 @@ const LoginForm = ({ setUser }) => {
 
   const handleSubmit = async (values, { setSubmitting, setFieldError }) => {
     try {
-      const response = await fetch('http://localhost:8000/api/login', {
+      const response = await fetch('https://hotel-booking-app-1-99r9.onrender.com/api/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(values)

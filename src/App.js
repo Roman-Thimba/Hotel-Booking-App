@@ -17,7 +17,7 @@ function Hotels({ user, setUser }) {
 
   const fetchHotels = async () => {
     try {
-      const response = await fetch('http://localhost:8000/api/hotels');
+      const response = await fetch('https://hotel-booking-app-1-99r9.onrender.com/api/hotels');
       const data = await response.json();
       setHotels(data.hotels);
     } catch (error) {
@@ -27,7 +27,7 @@ function Hotels({ user, setUser }) {
 
   const fetchRooms = async (hotelId) => {
     try {
-      const response = await fetch(`http://localhost:8000/api/rooms?hotel_id=${hotelId}`);
+      const response = await fetch(`https://hotel-booking-app-1-99r9.onrender.com/api/rooms?hotel_id=${hotelId}`);
       const data = await response.json();
       setRooms(data.rooms);
     } catch (error) {
@@ -45,7 +45,7 @@ function Hotels({ user, setUser }) {
     const token = localStorage.getItem('token');
     
     try {
-      const response = await fetch('http://localhost:8000/api/bookings', {
+      const response = await fetch('https://hotel-booking-app-1-99r9.onrender.com/api/bookings', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -134,7 +134,7 @@ function Bookings({ user, setUser }) {
   const fetchBookings = async () => {
     const token = localStorage.getItem('token');
     try {
-      const response = await fetch('http://localhost:8000/api/bookings', {
+      const response = await fetch('https://hotel-booking-app-1-99r9.onrender.com/api/bookings', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await response.json();
@@ -149,7 +149,7 @@ function Bookings({ user, setUser }) {
     
     const token = localStorage.getItem('token');
     try {
-      const response = await fetch(`http://localhost:8000/api/bookings/${bookingId}`, {
+      const response = await fetch(`https://hotel-booking-app-1-99r9.onrender.com/api/bookings/${bookingId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
