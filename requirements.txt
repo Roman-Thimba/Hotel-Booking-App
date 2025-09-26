@@ -1,5 +1,5 @@
-flask==2.3.3
-flask-cors==4.0.0
-pyjwt==2.8.0
-flask-sqlalchemy==3.0.5
-sqlalchemy-serializer==1.4.1
+Flask==2.3.3
+Flask-CORS==4.0.0
+Flask-SQLAlchemy==3.0.5
+PyJWT==2.8.0
+gunicorn==21.2.0
