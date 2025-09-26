@@ -171,6 +171,7 @@ This project is licensed under the MIT License.
 ## 👨‍💻 Author
 
 **Baraka Samuel**
+**Roman Thimba**
 - GitHub: [@barakasamuel](https://github.com/barakasamuel)
 - Project: [Hotel Booking App](https://github.com/barakasamuel/HOTEL-BOOKING-APP)
 
