@@ -17,7 +17,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 - **Frontend**: [Hotel Booking App](https://your-vercel-url.vercel.app)
 - **Backend API**: [https://hotel-booking-app-1-99r9.onrender.com](https://hotel-booking-app-1-99r9.onrender.com)
 
-## 📋 API Endpoints
+##  API Endpoints
 
 ### Authentication
 - `POST /api/login` - User login
