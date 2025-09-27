@@ -12,7 +12,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 - 📱 Fully responsive design
 - 🔄 Real-time data persistence
 
-## 🚀 Live Demo
+##  Live Demo
 
 - **Frontend**: [Hotel Booking App](https://your-vercel-url.vercel.app)
 - **Backend API**: [https://hotel-booking-app-1-99r9.onrender.com](https://hotel-booking-app-1-99r9.onrender.com)
@@ -36,7 +36,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 - `PATCH /api/users/<id>` - Update user profile
 - `DELETE /api/users/<id>` - Delete user account
 
-## 🏨 Featured Hotels
+##  Featured Hotels
 
 20 world-class luxury hotels including:
 - Burj Al Arab (Dubai)
@@ -46,7 +46,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 - Atlantis The Palm (Dubai)
 - And 15 more premium destinations
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18** - UI framework
@@ -66,7 +66,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 - **Backend**: Render
 - **Database**: SQLite (persistent)
 
-## 🚀 Local Development
+##  Local Development
 
 ### Prerequisites
 - Node.js 16+
@@ -105,13 +105,13 @@ A full-stack hotel booking application with React frontend and Flask backend, de
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:8000
 
-## 🔐 Demo Credentials
+##  Demo Credentials
 
 Use any valid email format with any password:
 - Email: `test@example.com`
 - Password: `password123`
 
-## 📱 Usage
+##  Usage
 
 1. **Login** with any email/password combination
 2. **Browse Hotels** - View 20 luxury hotels with ratings and descriptions
@@ -119,7 +119,7 @@ Use any valid email format with any password:
 4. **Make Bookings** - Fill out booking form with dates and guest count
 5. **Manage Bookings** - View and cancel your reservations
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Frontend (Vercel)     Backend (Render)      Database
@@ -130,7 +130,7 @@ Frontend (Vercel)     Backend (Render)      Database
                                             Bookings
 ```
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Users
 - id, name, email, password, created_at
@@ -141,7 +141,7 @@ Frontend (Vercel)     Backend (Render)      Database
 ### Bookings
 - id, user_id, hotel_id, room_type, check_in, check_out, guests, total_price, status, created_at
 
-## 🔒 Security Features
+## Security Features
 
 - JWT token authentication
 - Protected API routes
@@ -149,14 +149,14 @@ Frontend (Vercel)     Backend (Render)      Database
 - CORS configuration
 - SQL injection prevention with SQLAlchemy
 
-## 📈 Performance
+## Performance
 
 - **Frontend**: Static site deployment on Vercel CDN
 - **Backend**: Serverless deployment on Render
 - **Database**: Optimized SQLite with proper indexing
 - **Images**: Optimized Unsplash CDN images
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch (`git checkout -b feature/amazing-feature`)
@@ -164,19 +164,20 @@ Frontend (Vercel)     Backend (Render)      Database
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open Pull Request
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 👨‍💻 Author
+##  Authors
 
-**Baraka Samuel**
+**.Baraka Samuel**
 
-**Roman Thimba**
+**.Roman Thimba**
 - GitHub: [@barakasamuel](https://github.com/barakasamuel)
+- Github: [@Roman-Thimba](https://github.com/Roman-Thimba)
 - Project: [Hotel Booking App](https://github.com/barakasamuel/HOTEL-BOOKING-APP)
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Unsplash for beautiful hotel images
 - Render for backend hosting
