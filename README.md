@@ -10,7 +10,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 -  Multiple suite options for each hotel
 -  Create and manage bookings (protected routes)
 -  Fully responsive design
-- 🔄 Real-time data persistence
+-  Real-time data persistence
 
 ##  Live Demo
 
