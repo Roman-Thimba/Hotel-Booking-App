@@ -7,7 +7,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 -  Beautiful beach hotel theme with background images
 -  User authentication with JWT tokens
 -  Browse 20 luxury hotels worldwide
-- 🛏️ Multiple suite options for each hotel
+-  Multiple suite options for each hotel
 - 📅 Create and manage bookings (protected routes)
 - 📱 Fully responsive design
 - 🔄 Real-time data persistence
