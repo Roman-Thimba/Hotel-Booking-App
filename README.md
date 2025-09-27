@@ -9,7 +9,7 @@ A full-stack hotel booking application with React frontend and Flask backend, de
 -  Browse 20 luxury hotels worldwide
 -  Multiple suite options for each hotel
 -  Create and manage bookings (protected routes)
-- 📱 Fully responsive design
+-  Fully responsive design
 - 🔄 Real-time data persistence
 
 ##  Live Demo
