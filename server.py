@@ -157,7 +157,7 @@ def handle_bookings():
         data = request.get_json()
         
         try:
-            # Save hotel to database if not exists
+            # Save hotel to database if doesn`t exists
             hotel_data = next((h for h in hotels if h['id'] == data.get('hotel_id')), None)
             if hotel_data and not Hotel.query.filter_by(id=data.get('hotel_id')).first():
                 hotel = Hotel(**hotel_data)

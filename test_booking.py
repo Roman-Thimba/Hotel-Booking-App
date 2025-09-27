@@ -2,11 +2,11 @@ from models import db, User, Hotel, Booking
 from server import app
 
 with app.app_context():
-    # Get a user
+    # Get user
     user = User.query.first()
     print(f"Testing with user: {user.name} (ID: {user.id})")
     
-    # Create a test hotel
+    # Create test hotel
     hotel = Hotel(
         id=1,
         name='Test Hotel',
@@ -17,7 +17,7 @@ with app.app_context():
     )
     db.session.add(hotel)
     
-    # Create a test booking
+    # Create test booking
     booking = Booking(
         user_id=user.id,
         hotel_id=1,
@@ -31,9 +31,9 @@ with app.app_context():
     
     try:
         db.session.commit()
-        print("✅ Test booking created successfully!")
+        print("Test booking created successfully!")
         print(f"Hotel: {hotel.name}")
         print(f"Booking: {booking.room_type} for {booking.guests} guests")
     except Exception as e:
-        print(f"❌ Error creating booking: {e}")
+        print(f"Error creating booking: {e}")
         db.session.rollback()
